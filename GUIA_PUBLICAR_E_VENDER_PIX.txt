@@ -1,0 +1,45 @@
+# Publicar o Viver em Seu Ritmo com Pix do Banco Inter (conta pessoal)
+
+Este pacote tem os preços atualizados e uma área demonstrativa para o Pix. O QR Code real ainda precisa ser gerado no aplicativo Inter e inserido no site; não existe QR Code válido embutido neste pacote.
+
+## Preços configurados
+- Rotina com menos estresse — R$ 6,50
+- Kit família acolhedora — R$ 12,00
+- Autismo no dia a dia — R$ 20,00
+
+## 1. Publicar gratuitamente no GitHub Pages
+1. Entre em https://github.com/ e crie uma conta, se necessário.
+2. Crie um repositório público chamado `viver-em-seu-ritmo`.
+3. Extraia este ZIP e envie o arquivo `index.html` usando **Add file > Upload files**.
+4. Confirme em **Commit changes**.
+5. Abra **Settings > Pages**.
+6. Em **Build and deployment**, selecione **Deploy from a branch**, branch `main` e pasta `/(root)`; clique **Save**.
+7. Aguarde a URL do site aparecer na seção Pages.
+
+## 2. Gerar QR Codes Pix no app Inter
+1. Abra o aplicativo oficial Inter e entre em Pix.
+2. Escolha a opção para receber/cobrar por Pix e gerar um QR Code com valor definido (os nomes podem variar conforme a versão do aplicativo).
+3. Gere um QR Code para cada valor: R$ 6,50; R$ 12,00; R$ 20,00.
+4. Confira com cuidado o valor e os dados de recebedor antes de usar cada código. Se o app não oferecer QR Code com valor definido na sua conta pessoal, não use um código genérico como se confirmasse automaticamente cada compra.
+5. Salve/compartilhe as imagens dos QR Codes. O site deste pacote ainda mostra um espaço reservado; é necessário editar o HTML para inserir as imagens corretas antes de publicar para vendas. Não invente nem reutilize QR Codes de teste.
+
+## 3. Confirmação manual e entrega
+- A conta Inter pessoal não fornece, por si só, confirmação automática ao site por este HTML estático.
+- Depois que o comprador pagar, abra o aplicativo Inter e confirme que o crédito entrou na conta e que o valor corresponde ao produto.
+- Só então envie o material comprado pelo canal combinado.
+- Não libere o produto com base apenas em captura de tela ou comprovante enviado pelo comprador.
+
+## 4. Cuidados importantes
+- Os botões de pagamento ainda são demonstrativos até você inserir os QR Codes reais.
+- Os materiais descritos nos produtos precisam existir e estar prontos antes de cobrar.
+- Não coloque senha bancária, códigos de acesso, tokens ou dados privados no site.
+- Não publique PDFs pagos em um repositório público.
+- Inclua política de privacidade, termos de compra, política de entrega/reembolso e contato de suporte.
+- O conteúdo é educativo e não substitui aconselhamento profissional individualizado.
+
+## Limitação técnica
+Para mostrar um QR Code diferente e válido para cada produto, é preciso inserir as imagens geradas pelo seu próprio app Inter. Para confirmação e liberação automáticas, seria necessário um serviço de cobrança/API e um backend compatível; não é feito automaticamente por GitHub Pages nem pela conta PF através deste pacote.
+
+## Links úteis
+- GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- Banco Inter: https://inter.co/
